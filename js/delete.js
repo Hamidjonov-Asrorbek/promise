@@ -1,5 +1,7 @@
 const deletBtn = document.getElementById('deletBtn');
 
+deletBtn.disabled = true;
+
 deletBtn.addEventListener('click', (e) => {  
     e.preventDefault();
     console.log("ada");
